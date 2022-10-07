@@ -84,6 +84,7 @@ body{
   color: #ffffffff;
   display: inline-block;
   padding: 30px;
+  border-radius: 5px;
 }
 
 .cover-title{
@@ -124,6 +125,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
+  border-radius: 5px;
 }
 
 .cover-description span{
@@ -146,6 +148,7 @@ body{
   padding: 10px 15px;
   margin: 15px 0;
   transition: background-color 0.10s,color 0.10s; /*Se supone es una animación para la transicion de colores*/
+  border-radius: 5px;
 }
 
 .btn-blue:hover{
@@ -164,6 +167,7 @@ body{
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px;
 }
 
 .skill-text{
@@ -177,22 +181,26 @@ body{
 
 .skill-name{
   float: left;
+  font-size: 1em;
 }
 
 .skill-score{
   float: right;
+  font-size: 1em;
 }
 
 .skill-bar{
   width: 100%;
   height: 30px;
   background-color: #9e9e9e;
+  border-radius: 5px;
 }
 
 .skill-insidebar{
   background-color: #4E9F3D;
   height: 30px;
   display: inline-block;
+  border-radius: 5px;
 }
 
 /*Apartado de portafolio*/
@@ -212,10 +220,12 @@ body{
   background: #D8E9A8;
   margin-top: 10px;
   text-align: left;
+  border-radius: 5px;
 }
 
 .works-item-img{
   width: 100%;
+  border-radius: 5px;
 }
 
 .works-item-description{
