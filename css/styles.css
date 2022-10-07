@@ -203,6 +203,18 @@ body{
   border-radius: 5px;
 }
 
+/*animaciones*/
+
+#skill-html{
+  animation: html-barra 4s forwards ease-out;
+}
+
+@keyframes html-barra {
+  100%{
+    width: 95%;
+  }
+}
+
 /*Apartado de portafolio*/
 
 .work-wrapper{
