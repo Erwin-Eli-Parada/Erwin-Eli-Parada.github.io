@@ -6,6 +6,7 @@
         <title>Mi portafolio</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
+        <script src="https://kit.fontawesome.com/fc0a8e3d0f.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <!--Sección del header-->
@@ -204,7 +205,7 @@
                     <div class="works-item-description">
                         <header>
                             <h2 class="work-item-articule">Desarrollo web2</h2>
-                            <p class="work-item-client">Para <a href="https://www.google.com" target="blank">Nuestro cliente</a> </p> <!--El atributo blank decide si se abrira una nueva pestaña o en la misma-->
+                            <p class="work-item-client">Para <a href="https://www.google.com" target="blank">Pendiente</a> </p> <!--El atributo blank decide si se abrira una nueva pestaña o en la misma-->
                         </header>
                         <div class="text-center">
                             <a href="https://www.google.com" class="btn-blue" target="blank">Visitar web</a>
@@ -221,7 +222,7 @@
                             <p class="work-item-client">Para <a href="https://www.google.com" target="blank">Nuestro cliente</a> </p> <!--El atributo blank decide si se abrira una nueva pestaña o en la misma-->
                         </header>
                         <div class="text-center">
-                            <a href="https://www.google.com" class="btn-blue" target="blank">Visitar web</a>
+                            <a href="https://www.google.com" class="btn-blue" target="blank">Pendiente</a>
                         </div>
                     </div>
                 </article>
@@ -234,41 +235,24 @@
                     <span>Contactame</span>
                 </h1>
             </header>
-            <form action="server.php" method="post" class="contact-form">
-                <div class="contact-row">
-                    <div class="contact-column left">
-                        <div>
-                            <label for="useremail">correo</label>
-                        </div>
-                        <div>
-                            <input id="useremail" name="useremail" type="email" class="contact-input-text" required/> <!--El nombre en los campos es obligatorio para que la maquina o reconozca-->
-                        </div> 
-                    </div>
-                    <div class="contact-column right">
-                        <div>
-                            <label for="username">usuario</label>
-                        </div>
-                        <div>
-                            <input id="username" name="username" type="text" class="contact-input-text" required/> <!--El required marca que debe ser necsario rellenar dicho campo-->
-                        </div> 
-                    </div>
-                </div>
-                <div class="contact-row">
-                    <div class="contact-column --width100">
-                        <div>
-                            <label for="usermessage">Mensaje</label>
-                        </div>
-                        <div>
-                            <textarea id="usermessage" name="usermessage" rows="3"> 
-                            Hola que hace
-                            </textarea>
-                        </div>  
-                    </div>
-                </div>
-                <div class="text-center">
-                    <input type="submit" class="btn-blue" value="Enviar"/> <!--Boton para enviar los datos del formulario-->
-                </div>
-            </form>
+            <div class="contact-wrapper">
+                <a href="https://www.facebook.com/joseluis.parada.754" class="contact-item">
+                    <i class="fa-brands fa-facebook"></i>
+                    Facebook
+                </a>
+                <a href="https://twitter.com/erwin032300" class="contact-item">
+                    <i class="fa-brands fa-twitter"></i>
+                    Twitter
+                </a>
+                <a href="https://www.instagram.com/erwin_eli_parada/" class="contact-item">
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+                </a>
+                <a href="https://www.linkedin.com/in/erwin-eli-parada-martinez-3542b8252/" class="contact-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
+                </a>
+            </div>
         </section>
         <!--Esta es la seccion del pie de pagina-->
         <footer class="footer">
