@@ -76,7 +76,7 @@ body{
 }
 
 .cover-photo{
-  border-radius: 40%; /*Ayuda a aligerar el border de la imagen, en procentaje hace una especie de circulo en pixeles se puede establecer hasta un valor por cada esquina*/
+  border-radius: 50%; /*Ayuda a aligerar el border de la imagen, en procentaje hace una especie de circulo en pixeles se puede establecer hasta un valor por cada esquina*/
 }
 
 .cover-text{
