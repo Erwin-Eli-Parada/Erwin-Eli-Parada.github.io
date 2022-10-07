@@ -225,6 +225,75 @@ body{
   }
 }
 
+#skill-postgres{
+  animation: postgres-barra 4s forwards ease-out;
+}
+
+@keyframes postgres-barra {
+  100%{
+    width: 80%;
+  }
+}
+
+#skill-mysql{
+  animation: mysql-barra 4s forwards ease-out;
+}
+
+@keyframes mysql-barra {
+  100%{
+    width: 80%;
+  }
+}
+
+#skill-js{
+  animation: js-barra 4s forwards ease-out;
+}
+
+@keyframes js-barra {
+  100%{
+    width: 60%;
+  }
+}
+
+#skill-react{
+  animation: react-barra 4s forwards ease-out;
+}
+
+@keyframes react-barra {
+  100%{
+    width: 20%;
+  }
+}
+
+#skill-flutter{
+  animation: flutter-barra 4s forwards ease-out;
+}
+
+@keyframes flutter-barra {
+  100%{
+    width: 20%;
+  }
+}
+
+#skill-firebase{
+  animation: firebase-barra 4s forwards ease-out;
+}
+
+@keyframes firebase-barra {
+  100%{
+    width: 10%;
+  }
+}
+
+#skill-django{
+  animation: django-barra 4s forwards ease-out;
+}
+
+@keyframes django-barra {
+  100%{
+    width: 10%;
+  }
+}
 /*Apartado de portafolio*/
 
 .work-wrapper{
