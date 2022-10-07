@@ -192,7 +192,7 @@ body{
 .skill-bar{
   width: 100%;
   height: 30px;
-  background-color: #9e9e9e;
+  background-color: #D8E9A8;
   border-radius: 5px;
 }
 
@@ -223,9 +223,18 @@ body{
   border-radius: 5px;
 }
 
+.works-item-img-container{
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4E9F3D;
+}
+
 .works-item-img{
-  width: 100%;
+  /*width: 100%;*/
   border-radius: 5px;
+  max-height: 200px;
 }
 
 .works-item-description{
