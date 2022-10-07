@@ -215,6 +215,16 @@ body{
   }
 }
 
+#skill-css{
+  animation: css-barra 4s forwards ease-out;
+}
+
+@keyframes css-barra {
+  100%{
+    width: 90%;
+  }
+}
+
 /*Apartado de portafolio*/
 
 .work-wrapper{
